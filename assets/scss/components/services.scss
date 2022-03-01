@@ -1,0 +1,41 @@
+.our-services{
+  background-color: #FFF;
+  @include big-padding();
+  .service-row{
+    margin-top: 20px;
+  }
+  .service-col{
+    border: 1px solid #cccccc94;
+    margin-bottom: 30px;
+    .serv-detail{
+      text-align: center;
+      padding: 20px;
+      padding-top: 0px;
+      i{
+        padding: 24px;
+        background-color: #4ecd66;
+        color: #FFF;
+        font-size: 32px;
+        border-radius: 50px;
+        text-align: center;
+        width: 80px;
+        height: 80px;
+        margin-top: -60px
+      }
+      h4{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 1.4rem;
+      }
+      p{
+        font-size: .9rem;
+        margin-bottom: 20px;
+      }
+
+    }
+    &:hover{
+      box-shadow: 0 0 10px 5px #ebebeb;
+      border: 0px;
+    }
+  }
+}
